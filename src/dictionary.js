@@ -54258,6 +54258,34 @@ const dictionary = {
         name: "Unknown",
         vm: "1-n",
         version: "PrivateTag"
+    },
+    "(B071,0010)": {
+        tag: "(B071,0010)",
+        vr: "LO",
+        name: "RBfracturePrivateTagCreator",
+        vm: "1",
+        version: "Radiobotics"
+    },
+    "(B071,1010)": {
+        tag: "(B071,1010)",
+        vr: "LO",
+        name: "RBfractureStatus",
+        vm: "1",
+        version: "Radiobotics"
+    },
+    "(B071,1011)": {
+        tag: "(B071,1011)",
+        vr: "LT",
+        name: "RBfractureResults",
+        vm: "1",
+        version: "Radiobotics"
+    },
+    "(B071,1012)": {
+        tag: "(B071,1012)",
+        vr: "LT",
+        name: "RBfracturePrivateTagUID",
+        vm: "1",
+        version: "Radiobotics"
     }
 };
 
