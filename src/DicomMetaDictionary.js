@@ -159,7 +159,11 @@ class DicomMetaDictionary {
                     naturalDataset[naturalName] = data.Value;
                 }
 
-                if (naturalDataset[naturalName].length === 1) {
+                if (
+                    naturalDataset[naturalName] !== undefined &&
+                    naturalDataset[naturalName] !== null &&
+                    naturalDataset[naturalName].length === 1
+                ) {
                     const sqZero = naturalDataset[naturalName][0];
                     if (
                         sqZero &&
